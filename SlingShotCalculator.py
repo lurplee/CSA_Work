@@ -16,7 +16,7 @@ use_calc = True
 
 
 while choice in [1,2,3] and use_calc == True:
-    header("Welcome to SLINGSHOT CALCULATOR")
+    header("Welcome to CATAPULT CALCULATOR")
     choice = int(input("[1] Range\n[2] Drawback \n[3] Angle\n"))
     
     if choice ==1:
@@ -46,5 +46,5 @@ while choice in [1,2,3] and use_calc == True:
     else:
         use_calc = False
 
-print("Thank you for using SLINGSHOT CALCULATOR!")
+print("Thank you for using CATAPULT CALCULATOR!")
 
