@@ -7,8 +7,8 @@ drawback=0
 
 import my_calc as c
 
-def header(words):
-    print(f"==================================\n{words}\n==================================")
+def header(msg):
+    print(f"==================================\n{msg}\n==================================")
 
 
 choice =1
